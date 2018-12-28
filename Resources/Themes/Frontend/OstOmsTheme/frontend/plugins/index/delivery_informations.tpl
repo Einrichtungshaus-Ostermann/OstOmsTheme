@@ -7,6 +7,7 @@
 {* replace default delivery information *}
 {block name='frontend_widgets_delivery_infos'}
 
+    {* outer container *}
     <div class="product--delivery">
 
         {* get attributes based on available data *}
