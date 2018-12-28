@@ -1,0 +1,56 @@
+
+// detail controller
+body.is--ctl-detail.is--act-index {
+
+    // the h1 is way too high
+    .product--details .product--header {
+        min-height: 35px;
+    }
+
+    // add a bottom border to article number to seperate it from the buybox
+    .product--details .product--base-info {
+        border-bottom: 1px solid #dadae5;
+    }
+
+    // remove bottom border here because we have no following content and fix every child
+    .product--details .product--actions {
+        margin-top: 10px;
+        padding-top: 4px;
+        border-bottom: none;
+        border-top: 1px solid #dadae5;
+        text-align: center;
+
+        // make the form items inline
+        form.action--form {
+            float: none;
+            width: auto;
+            display: inline-block;
+        }
+    }
+
+    // make the delivery information centered
+    .product--delivery p {
+        text-align: center;
+    }
+
+    // fix padding for shipping-detail container
+    @media screen and (min-width: @desktopViewportWidth) {
+        .product--details .content--shipping-details {
+            padding: 0.625rem 2.8125rem 2.8125rem 2.8125rem;
+        }
+    }
+
+    // fix padding for shipping-detail container
+    .product--details .content--shipping-details {
+        padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+    }
+
+    // fix padding for shipping-detail container
+    @media screen and (min-width: @tabletViewportWidth) {
+        .product--details .content--shipping-details {
+            padding: 1.875rem 1.875rem 1.875rem 1.875rem;
+        }
+
+    }
+
+}

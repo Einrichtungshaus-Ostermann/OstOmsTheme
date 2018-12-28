@@ -1,0 +1,30 @@
+
+// everything for the header
+header.header-main {
+
+    // remove top bar
+    div.top-bar {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: @tabletViewportWidth) {
+    header.header-main div.container {
+        div.logo-main {
+            div.logo--shop {
+                height: 100px;
+                a.logo--link {
+                    height: 100px;
+                }
+            }
+        }
+
+        nav.shop--navigation {
+            position: absolute;
+            bottom: 20px;
+            right: 0;
+        }
+    }
+}
