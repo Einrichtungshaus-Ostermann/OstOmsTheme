@@ -47,8 +47,14 @@ body.is--ctl-detail.is--act-index {
         margin-bottom: 10px;
     }
 
+    // more margin below the title within a tab
+    .product--details .content--title {
+        margin-bottom: 20px;
+    }
+
     // fix fullservice assembly plugin
-    .product--details .alert.ost-article-assembly-surchage--fullservice-price {
+    .product--details .alert.ost-article-assembly-surchage--fullservice-price,
+    .product--details .alert.ost-article-assembly-surchage--fullservice-checkbox {
         margin: 10px 0 0 0;
     }
 
@@ -83,4 +89,20 @@ body.is--ctl-detail.is--act-index {
 
     }
 
+    // properties table more beautiful for tablet and desktop viewport
+    @media screen and (min-width: @tabletLandscapeViewportWidth) {
+        .product--details .product--properties {
+            margin-top: 20px;
+            margin-bottom: 0;
+            width: 100%;
+
+            .product--properties-label {
+                width: 25%;
+            }
+
+            .product--properties-value {
+                width: 75%;
+            }
+        }
+    }
 }

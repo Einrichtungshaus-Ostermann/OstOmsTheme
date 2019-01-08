@@ -38,8 +38,6 @@
 {* prepend delivery information in front of product actions *}
 {block name='frontend_detail_index_actions'}
 
-
-
     {* special case: company = ostermann && fullservice price *}
     {if $sArticle[$theme.attribute_company] == "1" && $sArticle[$theme.attribute_fullservice] == "2"}
 
@@ -47,24 +45,18 @@
 
     {else}
 
-
         {* free shipping?! *}
         {if $sArticle[$theme.attribute_shipping_costs]|floatval == 0}
-
-            <div class="shipping-costs--free">Kostenloser Versand</div>
-
-        {else}
-
-            <div class="shipping-costs">
-            Versand: {$sArticle[$theme.attribute_shipping_costs]|currency}
+            <div class="shipping-costs--free">
+                {s name="shipping-costs--free"}Kostenloser Versand{/s}
             </div>
-
+        {else}
+            <div class="shipping-costs">
+                {s name="shipping-costs"}Versand: {$sArticle[$theme.attribute_shipping_costs]|currency}{/s}
+            </div>
         {/if}
 
     {/if}
-
-
-
 
     {* delivery information depending on variant *}
     {if ($sArticle.sConfiguratorSettings.type != 1 && $sArticle.sConfiguratorSettings.type != 2) || $activeConfiguratorSelection == true}

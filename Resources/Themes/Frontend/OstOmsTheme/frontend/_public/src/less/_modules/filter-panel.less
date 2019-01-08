@@ -8,11 +8,13 @@
  * @license   proprietary
  */
 
-@import "_modules/global";
-@import "_modules/footer";
-@import "_modules/header";
-@import "_modules/main-navigation";
-@import "_modules/detail";
-@import "_modules/register";
-@import "_modules/checkout";
-@import "_modules/filter-panel";
+// every site
+body {
+
+    // we need 4 filters per row in desktop resolution
+    @media screen and (min-width: @tabletLandscapeViewportWidth) {
+        .filter-panel {
+            width: 24%;
+        }
+    }
+}

@@ -19,13 +19,13 @@
         Informationen zum Versand
     </div>
 
-    <p>
+    <div class="product--description">
     Lieferung per Paket
     Ihre Bestellung versenden wir mit dem Paketdienst DHL. Sobald die Ware unser Lager verlassen hat, erhalten Sie eine E-Mail mit Ihrer Sendungsverfolgung.
 
     Die Versandkosten belaufen sich auf 4,50 € innerhalb von Deutschland.
 
-    </p>
+    </div>
 
 
 </div>

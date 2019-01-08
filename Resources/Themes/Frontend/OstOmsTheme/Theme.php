@@ -63,8 +63,7 @@ class Theme extends Components\Theme
      *
      * @var array
      */
-    protected $javascript = [
-    ];
+    protected $javascript = [];
 
     /**
      * {@inheritdoc}
