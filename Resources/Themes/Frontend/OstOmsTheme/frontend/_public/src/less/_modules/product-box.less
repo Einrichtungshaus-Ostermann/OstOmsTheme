@@ -1,0 +1,74 @@
+/**
+ * Einrichtungshaus Ostermann GmbH & Co. KG - OMS Theme
+ *
+ * @package   OstOmsTheme
+ *
+ * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
+ * @copyright 2018 Einrichtungshaus Ostermann GmbH & Co. KG
+ * @license   proprietary
+ */
+
+// default product boxes for high resolutions
+@media screen and (min-width: @tabletLandscapeViewportWidth) {
+    div.listing {
+        div.product--box.box--basic {
+            width: 33.33333333%;
+
+            div.box--content {
+                padding-bottom: 10px;
+
+                div.product--info {
+                    padding: 0;
+
+                    a.product--image {
+                        position: inherit;
+                        width: 100%;
+                        display: block;
+                        height: 200px;
+                    }
+
+                    div.product--description {
+                        display: none;
+                    }
+
+                    div.product--price-info {
+                        text-align: right;
+                    }
+
+                    div.product--btn-container {
+                        margin-top: 10px;
+
+                        form.buybox--form {
+                            height: 38px;
+                        }
+                    }
+
+                    div.product--btn-container.has--buy-button {
+                        form.buybox--form {
+                            a.buybox--button {
+                                width: 49%;
+                                margin-right: 2%;
+                            }
+
+                            button.buybox--button {
+                                width: 49%;
+                            }
+                        }
+                    }
+
+                    div.product--btn-container.has--no-buy-button {
+                        form.buybox--form {
+                            a.buybox--button {
+                                width: 100%;
+                            }
+
+                            button.buybox--button {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

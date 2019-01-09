@@ -68,25 +68,25 @@ class Theme extends Components\Theme
     /**
      * {@inheritdoc}
      */
-    public function createConfig( Components\Form\Container\TabContainer $container )
+    public function createConfig(Components\Form\Container\TabContainer $container)
     {
         // create our attribute tab
-        $tab = $this->createTab( "attribute_tab", "Attribute" );
+        $tab = $this->createTab("attribute_tab", "Attribute");
 
         // create fieldset
-        $fieldset = $this->createFieldSet( "attribute_fieldset", "Attribute" );
+        $fieldset = $this->createFieldSet("attribute_fieldset", "Attribute");
 
         // create every fieldset
-        $fieldset->addElement( $this->createTextField( "attribute_company", "Firma", "attr1" ) );
-        $fieldset->addElement( $this->createTextField( "attribute_shipping_costs", "Versandkosten", "attr8" ) );
-        $fieldset->addElement( $this->createTextField( "attribute_shipping_method", "Versandart", "attr13" ) );
-        $fieldset->addElement( $this->createTextField( "attribute_delivery_time", "Lieferzeit", "attr12" ) );
-        $fieldset->addElement( $this->createTextField( "attribute_dispo", "Disposition", "attr11" ) );
-        $fieldset->addElement( $this->createTextField( "attribute_fullservice", "Vollservice", "attr18" ) );
-        $fieldset->addElement( $this->createTextField( "attribute_assembly_surcharge", "Montagekosten", "attr16" ) );
+        $fieldset->addElement($this->createTextField("attribute_company", "Firma", "attr1"));
+        $fieldset->addElement($this->createTextField("attribute_shipping_costs", "Versandkosten", "attr8"));
+        $fieldset->addElement($this->createTextField("attribute_shipping_method", "Versandart", "attr13"));
+        $fieldset->addElement($this->createTextField("attribute_delivery_time", "Lieferzeit", "attr12"));
+        $fieldset->addElement($this->createTextField("attribute_dispo", "Disposition", "attr11"));
+        $fieldset->addElement($this->createTextField("attribute_fullservice", "Vollservice", "attr18"));
+        $fieldset->addElement($this->createTextField("attribute_assembly_surcharge", "Montagekosten", "attr16"));
 
         // add it
-        $tab->addElement( $fieldset );
-        $container->addTab( $tab );
+        $tab->addElement($fieldset);
+        $container->addTab($tab);
     }
 }
