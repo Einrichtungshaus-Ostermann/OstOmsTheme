@@ -8,6 +8,7 @@
  * @license   proprietary
  */
 
-@import "_components/advanced-menu";
-@import "_components/delivery-information";
-@import "_components/collapse-cart";
+// fix the z-index to put the trusted shops badge behind the offcanvas
+body div.container--ajax-cart.off-canvas {
+    z-index: 2147483646 !important;
+}
