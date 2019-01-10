@@ -42,14 +42,32 @@ body.is--ctl-detail.is--act-index {
         text-align: center;
     }
 
-    // more margin for the price
+    // more margin for the price and right aligned
     .product--details .product--buybox .product--price.price--default {
         margin-bottom: 10px;
+        text-align: right;
+
+        // the pseudo price is below the current price
+        span.content--discount {
+            display: block;
+            padding-bottom: 0;
+        }
     }
 
     // more margin below the title within a tab
     .product--details .content--title {
         margin-bottom: 20px;
+    }
+
+    // set default product description content as if we would be within a <p>
+    .product--details .content--description .product--description {
+        line-height: 1.5rem;
+        font-size: 0.875rem;
+    }
+
+    // header for properties
+    .product--details .content--description .content--title.product-properties--title {
+        margin-bottom: 32px;
     }
 
     // fix fullservice assembly plugin
@@ -79,6 +97,12 @@ body.is--ctl-detail.is--act-index {
     // fix padding for shipping-detail container
     .product--details .content--shipping-details {
         padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+
+        // and always have line-height same as default <p>
+        .product--description {
+            line-height: 1.5rem;
+            font-size: 0.875rem;
+        }
     }
 
     // fix padding for shipping-detail container
