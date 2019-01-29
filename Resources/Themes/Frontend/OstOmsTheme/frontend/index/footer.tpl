@@ -99,27 +99,7 @@
             <nav class="column--navigation column--content">
 
 
-                <p>Sie finden Moebel-Shop auf bei:</p>
-
-                <ul class="navigation--list" role="menu">
-
-
-                    <li class="navigation--entry" role="menuitem">
-                        Facebook
-                    </li>
-
-                    <li class="navigation--entry" role="menuitem">
-                        Twitter
-                    </li>
-
-                    <li class="navigation--entry" role="menuitem">
-                        Instagramm
-                    </li>
-
-
-
-
-                </ul>
+                <p>Sie finden den Moebel-Shop in den bekannten Social Media Kanäle.:</p>
 
 
 
