@@ -1,0 +1,8 @@
+{
+  "name": "ost/oms-theme",
+  "license": "proprietary",
+  "type": "shopware-plugin",
+  "extra": {
+    "installer-name": "OstOmsTheme"
+  }
+}
