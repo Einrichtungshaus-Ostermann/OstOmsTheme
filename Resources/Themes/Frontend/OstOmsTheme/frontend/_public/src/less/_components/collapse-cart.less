@@ -9,6 +9,16 @@
  */
 
 // fix the z-index to put the trusted shops badge behind the offcanvas
+/*
 body div.container--ajax-cart.off-canvas {
     z-index: 2147483646 !important;
 }
+*/
+
+/*
+div#tsbadge4_db8d3657bdbe440c985ae127463eaad4 {
+    z-index: 755 !important;
+}
+*/
+
+.js--overlay-relative > div[id^=ts] { opacity: 0; pointer-events: none; }
