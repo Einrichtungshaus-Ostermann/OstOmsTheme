@@ -11,6 +11,10 @@
  * 1.0.1
  * - added composer.json and readme
  *
+ * 1.0.2
+ * - changed horizontal align of article-price on detail page
+ * - added css to hide trusted shops badge
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
