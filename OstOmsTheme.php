@@ -18,6 +18,9 @@
  * 1.0.3
  * - added 3-column and 4-column listing layout
  *
+ * 1.0.4
+ * - fixed responsive listing
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>

@@ -13,7 +13,6 @@
 {* overwrite detail button *}
 {block name="frontend-listing-product-box--detail-button-label"}
     {$label = "{s name="listing-detail-button--4-column" namespace="frontend/listing/box_article" force}Info{/s}"}
-
     <a href="{$url}" class="buybox--button block btn is--center" title="{$label} - {$title}">
         {$label}
     </a>

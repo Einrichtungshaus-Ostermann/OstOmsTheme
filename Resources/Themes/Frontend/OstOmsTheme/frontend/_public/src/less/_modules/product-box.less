@@ -48,39 +48,6 @@
                             display: none;
                         }
                     }
-
-                    div.product--btn-container {
-                        margin-top: 10px;
-
-                        form.buybox--form {
-                            height: 38px;
-                        }
-                    }
-
-                    div.product--btn-container.has--buy-button {
-                        form.buybox--form {
-                            a.buybox--button {
-                                width: 49%;
-                                margin-right: 2%;
-                            }
-
-                            button.buybox--button {
-                                width: 49%;
-                            }
-                        }
-                    }
-
-                    div.product--btn-container.has--no-buy-button {
-                        form.buybox--form {
-                            a.buybox--button {
-                                width: 100%;
-                            }
-
-                            button.buybox--button {
-                                display: none;
-                            }
-                        }
-                    }
                 }
             }
         }
@@ -102,6 +69,54 @@
                 div.product--info {
                     a.product--image {
                         height: 157px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+div.listing {
+    div.product--box.box--basic {
+        div.box--content {
+            div.product--info {
+                div.product--btn-container {
+                    margin-top: 10px;
+
+                    form.buybox--form {
+                        height: 38px;
+
+                        a.buybox--button {
+                            max-height: 38px;
+                            overflow: hidden;
+                        }
+                    }
+                }
+
+                div.product--btn-container.has--buy-button {
+                    form.buybox--form {
+                        a.buybox--button {
+                            width: 49%;
+                            margin-right: 2%;
+                        }
+
+                        button.buybox--button {
+                            width: 49%;
+                        }
+                    }
+                }
+
+                div.product--btn-container.has--no-buy-button {
+                    form.buybox--form {
+                        a.buybox--button {
+                            width: 100%;
+                        }
+
+                        button.buybox--button {
+                            display: none;
+                        }
                     }
                 }
             }
