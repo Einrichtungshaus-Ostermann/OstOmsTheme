@@ -20,11 +20,18 @@
                 div.product--info {
                     padding: 0;
 
+                    div.product--rating-container {
+                        height: 20px;
+                    }
+
                     a.product--image {
                         position: inherit;
-                        width: 100%;
+                        width: ~"calc(100% + 20px)";
                         display: block;
-                        height: 200px;
+                        height: 214px;
+                        margin-top: -20px;
+                        margin-left: -10px;
+                        margin-right: -10px;
                     }
 
                     div.product--description {
@@ -33,6 +40,13 @@
 
                     div.product--price-info {
                         text-align: right;
+                        height: 20px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+
+                        div.price--unit {
+                            display: none;
+                        }
                     }
 
                     div.product--btn-container {
@@ -66,6 +80,28 @@
                                 display: none;
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: @tabletLandscapeViewportWidth) {
+    div.listing {
+        div.product--box.box--basic.box--3column {
+            width: 33.33333333%;
+        }
+
+        div.product--box.box--basic.box--4column {
+            width: 25%;
+
+            div.box--content {
+                div.product--info {
+                    a.product--image {
+                        height: 157px;
                     }
                 }
             }

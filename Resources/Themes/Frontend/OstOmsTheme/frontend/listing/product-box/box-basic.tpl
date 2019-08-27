@@ -36,9 +36,11 @@
             {$label = "{s name="listing-detail-button" namespace="frontend/listing/box_article"}Zum Produkt{/s}"}
 
             {* detail button *}
-            <a href="{$url}" class="buybox--button block btn is--center" title="{$label} - {$title}">
-                {$label}
-            </a>
+            {block name="frontend-listing-product-box--detail-button-label"}
+                <a href="{$url}" class="buybox--button block btn is--center" title="{$label} - {$title}">
+                    {$label}
+                </a>
+            {/block}
 
             {* parameters for buy button*}
             {$label = "{s namespace="frontend/listing/box_article" name="listing-buy-button"}Bestellen{/s}"}

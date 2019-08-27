@@ -15,6 +15,9 @@
  * - changed horizontal align of article-price on detail page
  * - added css to hide trusted shops badge
  *
+ * 1.0.3
+ * - added 3-column and 4-column listing layout
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
