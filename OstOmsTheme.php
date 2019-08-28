@@ -27,6 +27,9 @@
  * 1.0.6
  * - added support for financing
  *
+ * 1.0.7
+ * - fixed financing
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
