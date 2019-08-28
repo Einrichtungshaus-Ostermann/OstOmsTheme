@@ -21,6 +21,9 @@
  * 1.0.4
  * - fixed responsive listing
  *
+ * 1.0.5
+ * - added support for ost-article-family plugin
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
