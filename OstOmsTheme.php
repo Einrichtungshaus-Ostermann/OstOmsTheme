@@ -24,6 +24,9 @@
  * 1.0.5
  * - added support for ost-article-family plugin
  *
+ * 1.0.6
+ * - added support for financing
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
