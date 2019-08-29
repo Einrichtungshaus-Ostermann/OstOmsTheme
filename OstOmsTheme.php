@@ -30,6 +30,9 @@
  * 1.0.7
  * - fixed financing
  *
+ * 1.0.8
+ * - hide payoultion financing in article details
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
