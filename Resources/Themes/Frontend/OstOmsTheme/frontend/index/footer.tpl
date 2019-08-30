@@ -9,131 +9,35 @@
 
 
 
-
+{* 2nd row of service info *}
 {block name='frontend_index_footer_menu'}
 
+    {* 1st row *}
     {$smarty.block.parent}
 
-
-
-
+    {* complete 2nd row *}
     <div class="footer--columns block-group">
-
-
-
-
         <div class="footer--column column--menu column--payments block">
-            <div class="column--headline">Zahlungsarten</div>
+            <div class="column--headline">{s name="footer-payments-header"}Zahlungsarten{/s}</div>
             <nav class="column--navigation column--content">
-
-
-
-                <ul class="navigation--list" role="menu">
-
-
-                    <li class="navigation--entry" role="menuitem">
-                        <img  src="{link file='frontend/_public/src/img/payment-icons/paypal.jpg'}" alt="Paypal" title="Paypal">
-                    </li>
-
-                    <li class="navigation--entry" role="menuitem">
-                        <img  src="{link file='frontend/_public/src/img/payment-icons/mastercard.jpg'}" alt="Mastercard" title="Mastercard">
-                    </li>
-
-                    <li class="navigation--entry" role="menuitem">
-                        <img  src="{link file='frontend/_public/src/img/payment-icons/visa.jpg'}" alt="Visa" title="Visa">
-                    </li>
-                    <li class="navigation--entry" role="menuitem">
-                        <img  src="{link file='frontend/_public/src/img/payment-icons/rechnung.jpg'}" alt="Rechnung" title="Rechnung">
-                    </li>
-                    <li class="navigation--entry" role="menuitem">
-                        <img  src="{link file='frontend/_public/src/img/payment-icons/sofort.jpg'}" alt="SOFORT" title="SOFORT">
-                    </li>
-                    <li class="navigation--entry" role="menuitem">
-                        <img  src="{link file='frontend/_public/src/img/payment-icons/credit-plus.jpg'}" alt="Credit Plus" title="Credit Plus">
-                    </li>
-
-
-
-                </ul>
-
-
-
-
+                <img  src="{link file='frontend/_public/src/img/footer-icons/payment-icons.jpg'}" alt="{s name="footer-payments-image-alt"}Zahlungsarten{/s}" title="{s name="footer-payments-image-title"}Zahlungsarten{/s}">
             </nav>
         </div>
-
-
         <div class="footer--column column--menu column--shipping-methods block">
-            <div class="column--headline">Versandarten</div>
+            <div class="column--headline">{s name="footer-shipping-methods-header"}Versandarten{/s}</div>
             <nav class="column--navigation column--content">
-
-
-
-                <ul class="navigation--list" role="menu">
-
-
-                    <li class="navigation--entry" role="menuitem">
-                        <img src="{link file='frontend/_public/src/img/shipping-icons/dhl.jpg'}" alt="DHL" title="DHL">
-                    </li>
-
-                    <li class="navigation--entry" role="menuitem">
-                        <img src="{link file='frontend/_public/src/img/shipping-icons/hermes.jpg'}" alt="Hermes" title="Hermes">
-                    </li>
-
-
-
-
-                </ul>
-
-
-
-
+                <img  src="{link file='frontend/_public/src/img/footer-icons/shipping-icons.jpg'}" alt="{s name="footer-shipping-methods-image-alt"}Versandarten{/s}" title="{s name="footer-shipping-methods-image-title"}Versandarten{/s}">
             </nav>
         </div>
-
-
-
-
-        <div class="footer--column column--menu column--social-media block">
-            <div class="column--headline">Social Media</div>
-            <nav class="column--navigation column--content">
-
-
-                <p>Sie finden den Moebel-Shop in den bekannten Social Media Kanäle.:</p>
-
-
-
-
-
-            </nav>
-        </div>
-
-
         <div class="footer--column column--menu column--quality-seals block">
-            <div class="column--headline">Geprüfte Leistung</div>
+            <div class="column--headline">{s name="footer-quality-seals-header"}Geprüfte Leistung{/s}</div>
             <nav class="column--navigation column--content">
-
-
                 <p>
-
-                    Mit geprüfter Qualität, Sicherheit und Transparenz ist moebel-shop in hohem Maße vertrauenswürdig.
-
-
-                    <img src="{link file='frontend/_public/src/img/quality-seal-icons/trusted-shops.jpg'}" alt="Trusted Shops" title="Trusted Shops">
-
-
+                    {s name="footer-quality-seals-info"}Mit geprüfter Qualität, Sicherheit und Transparenz ist moebel-shop in hohem Maße vertrauenswürdig.{/s}
+                    <img src="{link file='frontend/_public/src/img/quality-seal-icons/trusted-shops.jpg'}" alt="{s name="footer-quality-seals-trusted-shops-img-alt"}Trusted Shops{/s}" title="{s name="footer-quality-seals-trusted-shops-img-title"}Trusted Shops{/s}">
                 </p>
-
-
-
-
-
-
             </nav>
         </div>
-
-
-
     </div>
 
 {/block}

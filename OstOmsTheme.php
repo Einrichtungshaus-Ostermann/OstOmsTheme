@@ -33,6 +33,13 @@
  * 1.0.8
  * - hide payoultion financing in article details
  *
+ * 1.0.9
+ * - updated header
+ * - updated payment and shipping footer icons
+ * - updated footer for 3 columns
+ * - updated emotion box
+ * - updated background-color
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
