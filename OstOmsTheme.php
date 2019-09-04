@@ -40,6 +40,10 @@
  * - updated emotion box
  * - updated background-color
  *
+ * 1.0.10
+ * - fixed logo
+ * - fixed footer columns
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>

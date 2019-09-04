@@ -27,11 +27,17 @@ footer.footer-main {
     }
 }
 
-
-
 // ...
 @media screen and (min-width: @tabletViewportWidth) {
     .footer-main .footer--column {
         width: 33.33333%;
+    }
+}
+
+// ...
+@media screen and (min-width: @desktopViewportWidth) {
+    .footer-main .footer--columns {
+        width: 90%;
+        margin: auto;
     }
 }
