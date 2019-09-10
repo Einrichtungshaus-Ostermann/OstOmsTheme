@@ -44,6 +44,9 @@
  * - fixed logo
  * - fixed footer columns
  *
+ * 1.0.11
+ * - added css for concardis
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
