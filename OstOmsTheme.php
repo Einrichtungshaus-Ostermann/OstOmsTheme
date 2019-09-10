@@ -47,6 +47,9 @@
  * 1.0.11
  * - added css for concardis
  *
+ * 1.0.12
+ * - added shipping details
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>

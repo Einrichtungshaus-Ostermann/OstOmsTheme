@@ -11,7 +11,7 @@
     {$smarty.block.parent}
 
     {* append our tab *}
-    <a href="#" class="tab--link" title="Versandinfo" data-tabName="shipping-details">Informationen zum Versand</a>
+    <a href="#" class="tab--link" title="Versandinfo" data-tabName="shipping-details">{s name="shipping-details-tab-title"}Informationen zum Versand{/s}</a>
 
 {/block}
 
@@ -26,10 +26,10 @@
     {* our tab container *}
     <div class="tab--container">
         <div class="tab--header">
-            <a href="#" class="tab--title" title="Versandinfo">Versandinfo</a>
+            <a href="#" class="tab--title" title="Versandinfo">{s name="shipping-details-title"}Versandinfo{/s}</a>
         </div>
         <div class="tab--preview">
-            Versandinfo hier...
+            {s name="shipping-details-preview"}Versandinfo hier...{/s}
         </div>
         <div class="tab--content">
             {include file="frontend/detail/tabs/shipping_details.tpl"}
