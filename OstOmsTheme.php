@@ -58,6 +58,9 @@
  * 1.0.14
  * - added product color badge
  *
+ * 1.0.15
+ * - removed variants with image-configurator without images
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
