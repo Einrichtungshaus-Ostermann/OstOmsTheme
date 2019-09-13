@@ -44,6 +44,9 @@
                         margin-top: 10px;
                         margin-bottom: 10px;
 
+                        // remove margin because we removed the buy buttons
+                        margin-bottom: 0;
+
                         div.price--unit {
                             display: none;
                         }
@@ -82,7 +85,17 @@ div.listing {
     div.product--box.box--basic {
         div.box--content {
             div.product--info {
+                div.product--price-info {
+                    span.price--pseudo {
+                        margin-right: 5px;
+                    }
+                }
+
                 div.product--btn-container {
+
+                    // remove buttons for now...
+                    display: none !important;
+
                     margin-top: 10px;
 
                     form.buybox--form {
@@ -126,8 +139,7 @@ div.listing {
 
 
 
-
-
+// fix emotion box
 div.product--box.box--emotion {
     .product--price-info {
         height: 20px;
@@ -140,5 +152,51 @@ div.product--box.box--emotion {
     }
     .product--title {
         margin-top: 18px;
+    }
+}
+
+
+
+// default values with hidden badge
+div.product--box {
+    .product--color-badge {
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        width: 50px;
+        height: 27px;
+        bottom: 2px;
+        right: 2px;
+    }
+}
+
+// show the badge in default listing
+body.is--ctl-listing div.content.listing--content div.listing {
+    div.product--box {
+        .product--color-badge {
+            display: block;
+        }
+    }
+}
+
+// badge size for different viewports
+@media screen and (min-width: @tabletViewportWidth) {
+    div.product--box .product--color-badge {
+        width: 50px;
+        height: 27px;
+    }
+}
+
+@media screen and (min-width: @tabletLandscapeViewportWidth) {
+    div.product--box .product--color-badge {
+        width: 50px;
+        height: 27px;
+    }
+}
+
+@media screen and (min-width: @desktopViewportWidth) {
+    div.product--box .product--color-badge {
+        width: 60px;
+        height: 32.4px;
     }
 }

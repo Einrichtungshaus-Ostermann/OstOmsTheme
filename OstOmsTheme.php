@@ -50,6 +50,14 @@
  * 1.0.12
  * - added shipping details
  *
+ * 1.0.13
+ * - removed buy buttons from listing
+ * - moved shipping costs on article detail page
+ * - switched position of price and pseudo-price in product boxes
+ *
+ * 1.0.14
+ * - added product color badge
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>

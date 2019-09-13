@@ -27,7 +27,7 @@ body.is--ctl-detail.is--act-index {
         padding-top: 4px;
         border-bottom: none;
         border-top: 1px solid #dadae5;
-        text-align: center;
+        text-align: left;
 
         // make the form items inline
         form.action--form {
@@ -39,12 +39,17 @@ body.is--ctl-detail.is--act-index {
 
     // make the delivery information centered
     .product--delivery p {
-        text-align: center;
+        text-align: left;
+    }
+
+    // remove doubled tax info
+    .product--details .product--buybox p.product--tax[data-modalbox="true"] {
+        display: none !important;
     }
 
     // more margin for the price and right aligned
     .product--details .product--buybox .product--price.price--default {
-        margin-bottom: 10px;
+        // margin-bottom: 10px;
         // text-align: right;
 
         // the pseudo price is below the current price
@@ -78,7 +83,7 @@ body.is--ctl-detail.is--act-index {
 
     // shipping costs
     div.shipping-costs {
-        text-align: center;
+        text-align: left;
     }
 
     // free shipping costs

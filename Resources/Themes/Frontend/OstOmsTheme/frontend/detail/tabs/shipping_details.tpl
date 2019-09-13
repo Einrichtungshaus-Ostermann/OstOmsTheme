@@ -52,8 +52,6 @@
                     <li>Anlieferungen am Samstag sind für 45 € Aufpreis möglich.</li>
                 </ul>
 
-                <br />
-
                 {if $sArticle[$theme.attribute_shipping_costs]|floatval == 0}
                     Der Versand ist kostenlos.
                 {else}

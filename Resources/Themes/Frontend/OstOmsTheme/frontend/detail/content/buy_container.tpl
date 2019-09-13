@@ -20,7 +20,7 @@
         </li>
         <li class="base-info--entry entry--sku">
             <strong class="entry--label">
-                {s name="supplier-name"}Hersteller{/s}
+                {s name="supplier-name"}Hersteller:{/s}
             </strong>
             <span class="entry--content">
                 {$sArticle.supplierName}
@@ -47,13 +47,17 @@
 
         {* free shipping?! *}
         {if $sArticle[$theme.attribute_shipping_costs]|floatval == 0}
+            {*
             <div class="shipping-costs--free">
                 {s name="shipping-costs--free"}Kostenloser Versand{/s}
             </div>
+            *}
         {else}
+            {*
             <div class="shipping-costs">
                 {s name="shipping-costs"}Versand: {$sArticle[$theme.attribute_shipping_costs]|currency}{/s}
             </div>
+            *}
         {/if}
 
     {/if}

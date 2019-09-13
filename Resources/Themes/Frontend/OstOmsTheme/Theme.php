@@ -84,6 +84,7 @@ class Theme extends Components\Theme
         $fieldset->addElement($this->createTextField("attribute_dispo", "Disposition", "attr11"));
         $fieldset->addElement($this->createTextField("attribute_fullservice", "Vollservice", "attr18"));
         $fieldset->addElement($this->createTextField("attribute_assembly_surcharge", "Montagekosten", "attr16"));
+        $fieldset->addElement($this->createTextField("attribute_color_badge", "Farbfächer", "tpl_color_badge"));
 
         // add it
         $tab->addElement($fieldset);
