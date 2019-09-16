@@ -61,6 +61,9 @@
  * 1.0.15
  * - removed variants with image-configurator without images
  *
+ * 1.0.16
+ * - fixed generating faulty urls when changing variants
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>

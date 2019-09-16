@@ -18,7 +18,7 @@
                 {$sArticle.ordernumber}
             </span>
         </li>
-        <li class="base-info--entry entry--sku">
+        <li class="base-info--entry entry--supplier">
             <strong class="entry--label">
                 {s name="supplier-name"}Hersteller:{/s}
             </strong>
