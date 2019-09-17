@@ -64,6 +64,9 @@
  * 1.0.16
  * - fixed generating faulty urls when changing variants
  *
+ * 1.0.17
+ * - fixed image in 1x1 emotion product-box
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
