@@ -67,6 +67,9 @@
  * 1.0.17
  * - fixed image in 1x1 emotion product-box
  *
+ * 1.0.18
+ * - changed prices in product-box
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
