@@ -58,6 +58,11 @@
                     Die Versandkosten belaufen sich auf {$sArticle[$theme.attribute_shipping_costs]|currency}
                     innerhalb von Deutschland.
                 {/if}
+
+                {if $sArticle.attr14|floatval == 1}
+                    <br />
+                    Dieser Artikel ist ein "LKW PLUS" Artikel, die Versandkosten werden addiert.
+                {/if}
             {/s}
 
         {/if}

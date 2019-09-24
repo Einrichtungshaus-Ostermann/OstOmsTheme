@@ -70,6 +70,9 @@
  * 1.0.18
  * - changed prices in product-box
  *
+ * 1.0.19
+ * - changed shipping-details snippets
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
