@@ -73,6 +73,9 @@
  * 1.0.19
  * - changed shipping-details snippets
  *
+ * 1.0.20
+ * - removed "plus shipping costs" link from ajax-cart
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
