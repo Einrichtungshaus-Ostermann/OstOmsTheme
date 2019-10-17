@@ -76,6 +76,9 @@
  * 1.0.20
  * - removed "plus shipping costs" link from ajax-cart
  *
+ * 1.0.21
+ * - removed percentage badge from product-box
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
