@@ -79,6 +79,9 @@
  * 1.0.21
  * - removed percentage badge from product-box
  *
+ * 1.0.22
+ * - fixed percentage badge
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
