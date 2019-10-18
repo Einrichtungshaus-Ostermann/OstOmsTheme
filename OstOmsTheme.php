@@ -82,6 +82,9 @@
  * 1.0.22
  * - fixed percentage badge
  *
+ * 1.0.23
+ * - removed additional panel for enterprise search
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
