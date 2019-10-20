@@ -85,6 +85,9 @@
  * 1.0.23
  * - removed additional panel for enterprise search
  *
+ * 1.0.24
+ * - added google-site-verfication meta tag
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
