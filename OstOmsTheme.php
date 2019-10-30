@@ -88,6 +88,9 @@
  * 1.0.24
  * - added google-site-verfication meta tag
  *
+ * 1.0.25
+ * - added jump-to-tab jquery for article detail page
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
