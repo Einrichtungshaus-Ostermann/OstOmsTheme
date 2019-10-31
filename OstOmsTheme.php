@@ -91,6 +91,12 @@
  * 1.0.25
  * - added jump-to-tab jquery for article detail page
  *
+ * 1.0.26
+ * - removed variant options without image
+ *
+ * 1.0.27
+ * - changed search-result header
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
