@@ -100,6 +100,9 @@
  * 1.0.28
  * - added trusted-shops link
  *
+ * 1.0.29
+ * - removed additional information for enterprise live search in lower viewports
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
