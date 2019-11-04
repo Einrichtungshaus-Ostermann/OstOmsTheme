@@ -34,7 +34,7 @@
             <nav class="column--navigation column--content">
                 <p>
                     {s name="footer-quality-seals-info"}Mit geprüfter Qualität, Sicherheit und Transparenz ist moebel-shop in hohem Maße vertrauenswürdig.{/s}
-                    <img src="{link file='frontend/_public/src/img/quality-seal-icons/trusted-shops.jpg'}" alt="{s name="footer-quality-seals-trusted-shops-img-alt"}Trusted Shops{/s}" title="{s name="footer-quality-seals-trusted-shops-img-title"}Trusted Shops{/s}">
+                    <a href="https://www.trustedshops.de/bewertung/info_XBB8B4990B9E40042D2E0A2D74A36DB7C.html"><img src="{link file='frontend/_public/src/img/quality-seal-icons/trusted-shops.jpg'}" alt="{s name="footer-quality-seals-trusted-shops-img-alt"}Trusted Shops{/s}" title="{s name="footer-quality-seals-trusted-shops-img-title"}Trusted Shops{/s}"></a>
                 </p>
             </nav>
         </div>

@@ -97,6 +97,9 @@
  * 1.0.27
  * - changed search-result header
  *
+ * 1.0.28
+ * - added trusted-shops link
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
