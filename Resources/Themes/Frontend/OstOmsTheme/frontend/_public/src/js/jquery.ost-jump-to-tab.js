@@ -1,7 +1,7 @@
 /**
- * Einrichtungshaus Ostermann GmbH & Co. KG - Ostermann Trends Theme
+ * Einrichtungshaus Ostermann GmbH & Co. KG - OMS Theme
  *
- * @package   OstOstermannTrendsTheme
+ * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
  * @copyright 2018 Einrichtungshaus Ostermann GmbH & Co. KG
@@ -49,6 +49,15 @@
             if (tabMenuProduct) {
                 // change the ab
                 tabMenuProduct.changeTab(index);
+            }
+
+            // we may not have this one
+            if ($($tab).offset().top === 0) {
+                // open the sidebar menu
+                $('*[data-jumpToTab="' + me.opts.tabName + '"]').click();
+
+                // done
+                return;
             }
 
             // and scroll to the tab

@@ -103,6 +103,10 @@
  * 1.0.29
  * - removed additional information for enterprise live search in lower viewports
  *
+ * 1.0.30
+ * - fixed shipping-costs link for mobile viewport
+ * - fixed missing snippets
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
