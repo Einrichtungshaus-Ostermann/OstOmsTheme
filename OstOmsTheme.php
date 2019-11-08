@@ -107,6 +107,9 @@
  * - fixed shipping-costs link for mobile viewport
  * - fixed missing snippets
  *
+ * 1.0.31
+ * - fixed google aggregated data
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
