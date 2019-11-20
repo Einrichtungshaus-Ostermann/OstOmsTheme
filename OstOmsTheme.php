@@ -110,6 +110,9 @@
  * 1.0.31
  * - fixed google aggregated data
  *
+ * 1.0.32
+ * - added css for cookie-permission
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
