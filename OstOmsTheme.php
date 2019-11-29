@@ -113,6 +113,9 @@
  * 1.0.32
  * - added css for cookie-permission
  *
+ * 1.0.33
+ * - added css for pmsw-cookie-consent-pro plugin
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
