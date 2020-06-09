@@ -116,6 +116,12 @@
  * 1.0.33
  * - added css for pmsw-cookie-consent-pro plugin
  *
+ * 1.0.34
+ * - added delivery time for drop-shipping articles
+ *
+ * 1.0.35
+ * - removed and changed snippets from finish page
+ *
  * @package   OstOmsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
